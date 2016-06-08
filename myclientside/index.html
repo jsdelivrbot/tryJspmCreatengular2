@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Demo App</title>
+        <!-- systemJS loader and config -->
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+    </head>
+    <body>
+        <!-- our angular2 component -->
+        <myapp>
+            Loading...
+        </myapp>
+
+        <!-- import and run our app -->
+        <script>
+            System.import ('src/boot.ts!typescript');
+        </script>
+    </body>
+</html>
